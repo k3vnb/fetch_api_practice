@@ -4,3 +4,48 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  
+  input[type=submit] {
+    color: white;
+    background-color: #46ff4e;
+    display: block;
+    height: 50px;
+    width: 80%;
+    margin: 10%;
+    border-radius: 16px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #00ce09;
+    cursor: pointer;
+    color: #1d1d1d;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #c3c3ff;
+    padding: 3%;
+  }
+  
+  .results {
+    display: none;
+  }
+  
+  
+  
+  .dog-img {
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+    margin: 2% 0%;
+    object-fit: contain;
+  }

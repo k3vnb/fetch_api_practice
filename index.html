@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Dog API Test App</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Get random dog images">
+    <title>Dog API Example</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Dog App</h1>
+    <header>
+      <h1>Doggos</h1>
+    </header>
+    <div class="container">
+      <main>
+        <form>
+          <label for="breed">What breed?</label>
+          <input type="text" name="breed" placeholder="i.e., Dalmatian" required>
+          <input type="submit" value="Get a dog pic!">
+        </form>
+        <section class="results">
+        </section>
+      </main>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
